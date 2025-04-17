@@ -41,3 +41,16 @@ body{
     flex: 1;
 }
 
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+}
+
+button{
+    font-size: 20px;
+    background-color: rgb(11, 141, 164);
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+}

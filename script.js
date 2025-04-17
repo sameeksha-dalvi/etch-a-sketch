@@ -21,6 +21,34 @@ square.addEventListener("mouseover",(e) =>{
 });
 
 
+const clearBtn = document.querySelector("#clear-grid");
+
+clearBtn.addEventListener("click", (e) =>{
+    console.log(e.target);
+    const  colNodeList = document.querySelectorAll(".col");
+
+    for(let i = 0 ; i < colNodeList.length; i ++ ){
+        colNodeList[i].style.backgroundColor = "white";
+    }
+    
+});
 
 
+const changeGridSize = document.querySelector("#change-grid-size");
+
+changeGridSize.addEventListener("click", (e) =>{
+    let gridSize = parseInt(prompt("Please enter the new grid size :"));
+
+    if(isNaN(gridSize)){
+        alert("Please enter valid number.");
+        return false;
+    }
+
+    if(gridSize > 100){
+        alert("Maximum grid size limit is 100");
+    }
+    console.log("gridSize "+gridSize);
+    console.log("gridSize "+typeof gridSize);
+
+});
 
