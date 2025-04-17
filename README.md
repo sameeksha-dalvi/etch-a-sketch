@@ -10,7 +10,7 @@ A browser-based sketching app built using **HTML**, **CSS (Flexbox)**, and **Jav
 
 - Create pixel drawings by hovering over the grid
 - Adjustable grid size
-- Eraser and clear buttons
+- clear button
 - Responsive layout using Flexbox
 
 ## 🧠 What I Learned
