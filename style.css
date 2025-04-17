@@ -26,5 +26,18 @@ body{
     border-style: solid;
     width: 750px;
     height: 750px;
+    display: flex;
+    flex-direction: column;
 }
 
+.row{
+    border: 1px solid black;
+    display: flex;
+    flex: 1;
+}
+
+.col{
+    border: 1px solid black;
+    background-color: lightgray;
+    flex: 1;
+}
