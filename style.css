@@ -23,7 +23,7 @@ body{
 
 
 .container{
-    border-style: solid;
+    border: 1px solid black;
     width: 750px;
     height: 750px;
     display: flex;
@@ -31,13 +31,13 @@ body{
 }
 
 .row{
-    border: 1px solid black;
     display: flex;
     flex: 1;
 }
 
 .col{
     border: 1px solid black;
-    background-color: lightgray;
+    background-color: rgb(251, 250, 250);
     flex: 1;
 }
+
